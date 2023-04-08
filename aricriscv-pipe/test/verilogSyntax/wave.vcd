@@ -1,0 +1,101 @@
+$date
+	Sat Apr 08 11:02:42 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top $end
+$var wire 4 ! out2 [3:0] $end
+$var reg 1 " clk $end
+$var reg 4 # out1 [3:0] $end
+$scope module low_ins $end
+$var wire 1 " clk $end
+$var wire 4 $ out1 [3:0] $end
+$var reg 4 % out2 [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+b1 $
+b1 #
+0"
+bx !
+$end
+#3000
+b0xx !
+b1 %
+b0 #
+b0 $
+1"
+#6000
+0"
+#9000
+b0x0 !
+b0 %
+1"
+#12000
+0"
+#15000
+1"
+#18000
+0"
+#21000
+1"
+#24000
+0"
+#27000
+1"
+#30000
+0"
+#33000
+1"
+#36000
+0"
+#39000
+1"
+#42000
+0"
+#45000
+1"
+#48000
+0"
+#51000
+1"
+#54000
+0"
+#57000
+1"
+#60000
+0"
+#63000
+1"
+#66000
+0"
+#69000
+1"
+#72000
+0"
+#75000
+1"
+#78000
+0"
+#81000
+1"
+#84000
+0"
+#87000
+1"
+#90000
+0"
+#93000
+1"
+#96000
+0"
+#99000
+1"
+#100000

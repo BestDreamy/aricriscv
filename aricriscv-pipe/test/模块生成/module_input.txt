@@ -1,0 +1,20 @@
+input wire[`REG_WIDTH - 1:0] d_srcA_i,
+    input wire[`REG_WIDTH - 1:0] d_srcB_i,
+    input wire[`CPU_WIDTH - 1:0] d_rvalA_i,
+    input wire[`CPU_WIDTH - 1:0] d_rvalB_i,
+
+    input wire[`REG_WIDTH - 1:0] E_dstE_i,
+    input wire[`CPU_WIDTH - 1:0] e_valE_i,
+    
+    input wire[`REG_WIDTH - 1:0] M_dstE_i,
+    input wire[`CPU_WIDTH - 1:0] M_valE_i,
+    input wire[`REG_WIDTH - 1:0] M_dstM_i,
+    input wire[`CPU_WIDTH - 1:0] m_valM_i,
+
+    input wire[`REG_WIDTH - 1:0] W_dstE_i,
+    input wire[`CPU_WIDTH - 1:0] W_valE_i,
+    input wire[`REG_WIDTH - 1:0] W_dstM_i,
+    input wire[`CPU_WIDTH - 1:0] W_valM_i,
+
+    output wire[`CPU_WIDTH - 1:0] d_valA_o,
+    output wire[`CPU_WIDTH - 1:0] d_valB_o
